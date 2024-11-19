@@ -1,0 +1,21 @@
+public class ConcatenationStringJerson {
+   public static void main(String[] args) {
+  String firstName = "Jerson";
+    String lastName = "Panisales";
+    String fullName = "";
+    int i = 0;
+    
+    while (i < firstName.length())   {
+              fullName += firstName.charAt(i);
+              i++;
+    }
+    fullName += " ";
+    i=0;
+            while (i < lastName.length()){
+                fullName += lastName.charAt(i);
+                i++;
+            }
+            System.out.println(fullName);
+    }
+    
+}
